@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 
 import { Montserrat } from "next/font/google";
 
-import "@/app/styles/globals.css";
+import "@/app/globals.css";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
 	title: {
-		default: "Next.JS Tailwind CSS Starter Template",
+		default: "Next.JS Starter Template",
 		template: "%s | Superior Software Solutions",
 	},
 	description: "Starter template for Next.JS projects using Tailwind CSS.",
